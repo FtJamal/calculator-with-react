@@ -1,0 +1,62 @@
+.keypad {
+    flex: 1.5;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    display: flex;
+}
+
+.keypad p {
+    line-height: 1.875rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+    color: var(--text-color-1);
+    user-select: none;
+    cursor: pointer;
+}
+
+.keypad p:active {
+background-color: aliceblue;
+
+}
+
+.keypad_keys {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keypad_keys p {
+    width: 30%;
+    height: 21%;
+    margin: 3px;
+    border-radius: 60%;
+    background-color: var(--bg-color-2);
+}
+.keypad_keys p:hover {
+background-color: var(--bg-color-4);
+
+}
+
+.keypad_symbols {
+    flex: 1;
+justify-content: center;
+align-items: center;
+
+}
+
+.keypad_symbols p {
+    color: var(--text-color-1);
+    width: 85%;
+    height: 17.5%;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 60%;
+    align-items: center;
+    background-color: var(--bg-color-3);
+}
+.keypad_symbols p:hover {
+    background-color: var(--bg-color-5);
+}
